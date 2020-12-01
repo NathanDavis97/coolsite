@@ -1,0 +1,101 @@
+header{
+background-color: rgb(28, 69, 135);
+color: aliceblue;
+margin: 0;
+padding-top: .4em;
+
+}
+.border{
+    border-style: solid;
+    border-color: black;
+}
+
+p{
+  text-align: start;
+  padding: 0em 3em;
+
+}
+.small{
+  padding:0;
+}
+
+h1{
+  margin: 0;
+}
+body{
+  background-color: aliceblue;
+  margin: 0;
+}
+.truncate{
+  width: 200px;
+  height: 200px;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#bar{
+  block-size: 20px;
+  background-color: rgb(207, 225, 243);
+  margin-top: 3em;
+}
+
+.centered{
+  text-align: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+.main{
+    padding: 0em 10em;
+    margin: 0em 0em 3em 0em;
+    block-size: 200px;
+}
+
+.side{
+      margin-top: 5em;
+      padding: 0em 1.5em;
+
+}
+
+.column{
+  float: left
+  ;
+}
+
+.right{
+  width: 25%
+  
+}
+
+.left{
+  width: 73%
+}
+
+.d-inline{
+  display: inline;
+}
+
+.footer{
+background-color: rgb(28, 69, 135);
+block-size: 3em;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+margin-top: 6em
+}
+
+.border-img{
+  border-radius: 2%;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: aliceblue;}
+  .mobile{
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+  }
+}
